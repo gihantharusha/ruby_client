@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  max-width: 100%;
+  padding: 2rem;
+}
+
+.container .top{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  max-width: inherit;
+  width: 100%;
+}
+
+.container .result{
+
+}
+
